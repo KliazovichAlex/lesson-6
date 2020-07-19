@@ -242,7 +242,7 @@
 }
 
 .card_pdng {
-    padding-top: 4rem ;
+    padding-top: 2rem ;
 }
 
 .title_pdng {
@@ -283,9 +283,8 @@
 
 .pricing {
     width: 100%;
-    height: 90vh;
     background-color: rgb(231, 231, 231);
-    
+    padding-bottom: 4rem;
 }
 
 .pricing__cards {
@@ -299,7 +298,6 @@
 
 
 .price-tag {
-    height: 16rem;
    background-color: rgb(46, 46, 46) ;
    list-style-type: none;
    text-align: center;
@@ -307,7 +305,7 @@
    font-size: 14px;
 }
 
-.li__title {
+.price-tag__title {
     border-bottom: 1px solid white;
     color: #ffffff;
     padding: 4px;
@@ -318,12 +316,12 @@
     padding: 4px;
   }
 
-  .li__price_size {
+  .price-tag__price_size {
     font-family: 'Raleway', sans-serif;
     font-size: 2.5rem;
   }
   
-.li__content {
+.price-tag__content {
     background-color: #ffffff;
     border-bottom: 1px solid rgb(214, 214, 214);
     color: rgb(155, 155, 155);
@@ -337,14 +335,6 @@
     color: #ffffff;
     padding: 8px;
   }
-
-  /* span {
-    font-family: 'Raleway', sans-serif;
-      font-size: 20px;
-  }
-  span span {
-    font-size: 35px;
-  } */
 
   /* CUSTOM */
 
