@@ -391,24 +391,41 @@
       font-family: "Open Sans", sans-serif; 
       font-size: 14px;
     }
- 
+
     .contact__form_box {
+        margin-bottom: 1rem;
+    }
+ 
+    .personal {
         display: flex;
         justify-content: space-between;
     }
 
+    .contact__form-main {
+        width: 45%;
+    }
+
 
     .input_size {
-        width: 30rem;   
+        width: 100%;  
         text-align: left;
         border: none;
         padding: 1rem;
     }
 
     .message {
-        width: 30rem;
+        
+        padding-top: 1rem;
+        width: 45%;
+        
+    }
+
+    .message__area {
+        width: 100%;
+        height: 100%;
         border: none;
     }
+    
     
     .input__bdr-b {
         border-bottom: 1px solid grey;
@@ -453,3 +470,77 @@
     color: #cccccc;
 }
 
+
+@media all and (max-width: 575px) {
+
+    .wrapper {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+
+    }
+
+    .logo__text_fs-3 {
+        font-size: 2rem;
+    }
+
+    .menu {
+        text-align: center;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu__item {
+        padding: 2px 0;
+        border: 1px solid grey;
+    }
+
+    .logo__text_fs-6 {
+        font-size: 3rem;
+    }
+
+    .line_margin-1 {
+        margin: 1rem auto;
+    }
+
+    .description {
+        font-size: 10px;
+    }
+
+    .title {
+        font-size: 1rem;
+    }
+
+    .download-btn {
+        margin-bottom: 1rem;
+    }
+
+    .form { 
+        width: 100%;
+    }
+
+    .brand-bar__info {
+        margin: 0 auto;
+    }
+
+    .brand-bar__icons {
+        margin: 0 auto;
+    }
+
+    .pricing__cards {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .card {
+        width: 100%;
+        margin: 2rem 0;
+        padding: 0;
+    }
+
+    .footer-bar {
+        width: 60%;
+    }
+
+}
