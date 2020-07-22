@@ -471,7 +471,7 @@
 }
 
 
-@media all and (max-width: 575px) {
+@media (max-width: 575px) {
 
     .wrapper {
         display: block;
@@ -525,12 +525,20 @@
     }
 
     .brand-bar__icons {
+        width: 80%; 
         margin: 0 auto;
     }
 
     .pricing__cards {
         display: block;
         margin: 0 auto;
+    }
+
+    .box {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        width: 60%;
     }
 
     .card {
@@ -541,6 +549,91 @@
 
     .footer-bar {
         width: 60%;
+    }
+
+}
+
+@media (min-width: 575px) and (max-width: 767.98px) {
+
+    .wrapper {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+
+    }
+
+    .logo__text_fs-3 {
+        font-size: 2rem;
+    }
+
+    .menu {
+        text-align: center;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu__item {
+        padding: 2px 0;
+        border: 1px solid grey;
+    }
+
+    .logo__text_fs-6 {
+        font-size: 3rem;
+    }
+
+    .line_margin-1 {
+        margin: 1rem auto;
+    }
+
+    .description {
+        font-size: 10px;
+    }
+
+    .title {
+        font-size: 1rem;
+    }
+
+    .download-btn {
+
+        margin: 1rem auto;
+        margin-bottom: 1rem;
+    }
+
+    .form { 
+        margin: 0 auto;
+        width: 60%;
+    }
+
+    .brand-bar__info {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .brand-bar__icons {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .pricing__cards {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .box {
+        display: block;
+        padding: 0;
+        width: 60%;
+    }
+
+    .card {
+        width: 100%;
+        margin: 2rem 0;
+        padding: 0;
+    }
+
+    .footer-bar {
+        width: 30%;
     }
 
 }
